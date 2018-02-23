@@ -5,11 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
 
     private GuestListAdapter mAdapter;
+    private TextView mTextView;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
